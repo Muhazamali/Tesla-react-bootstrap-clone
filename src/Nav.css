@@ -1,3 +1,8 @@
 .center{
     padding-left: 150px;
 }
+@media all and (max-width : 786px) {
+    .Nav1{
+        background-color:rgba(255,255,255,0.8);
+    }
+}

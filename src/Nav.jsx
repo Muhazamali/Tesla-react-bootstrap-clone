@@ -11,7 +11,7 @@ function Nav (){
     
    return(
     <>
-    <nav class="navbar navbar-expand-md navbar-light justify-content-center fixed-top">
+    <nav class="navbar navbar-expand-md navbar-light Nav1 justify-content-center fixed-top">
   <div class="container-fluid ">
     <a class="navbar-brand" href="#"><img src="./images/logo.svg" width="70px"/> </a>
     
@@ -28,9 +28,9 @@ function Nav (){
        <Name txt="Solar Roof"/> 
        <Name txt="Solar Panels"/>
        </ul></div>
-    <div class="collapse justify-content-end navbar-collapse" id="collapsibleNavbar">
+    <div class="collapse justify-content-end center navbar-collapse" id="collapsibleNavbar">
        <ul class="navbar-nav">
-       <Name classname="nav-link" txt="Shop"/>
+       <Name txt="Shop"/>
        <Name txt="Account"/>
        <Name txt="Menu"/>
        </ul>
