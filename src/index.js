@@ -3,11 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import Nav from './Nav.jsx';
+import Layout from './Products.jsx';
+import BottomNav from './BottomNav.jsx';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
-    <App />
+    <Nav/>    
+    
+    <Layout/>
+    <BottomNav/>
   </React.StrictMode>
 );
 
