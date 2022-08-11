@@ -50,8 +50,19 @@
         bottom:30vh;
         right:25vw;
     }
+
 }
-@media all and (max-width : 1280px) and (min-width:768px) {
+@media all and (max-width : 1380px) and (min-width:768px) {
+    .txt{
+        top:10vw;
+        right:40vw;
+    }
+    .btns{
+        bottom:15vh;
+        right:44vw;
+    }
+}
+@media all and (max-width : 1380px) and (min-width:768px) {
     .btns, .btns-1{
         flex-wrap: wrap;
         flex-direction: column;
@@ -68,7 +79,7 @@
         margin-right: 2vw;
 
     }
-    
+  
 }
 @media all and (max-width : 784px) and (min-width : 568px ){
     .btns, .btns-1{
